@@ -1,0 +1,24 @@
+^TITLE^
+xFSE95 PATCH
+
+Press ESC to abort patch, any other key to continue..
+
+^MESSAGE^
+
+Patch by OlegPro
+
+^FILE^ xfse95.exe 
+^SEARCH^ 4C 45 00 00 
+^GOTO+^ 0A 
+^REPLACE^ 01 04 
+^GOTO+^ 06 
+^REPLACE^ 02 80 
+^REPLACE^ 00 03 
+^GOTO+^ AD 
+^REPLACE^ 00 11
+^REPLACE^ 00  E9
+^REPLACE^ 00  00
+^REPLACE^ 00  04
+^GOTO+^ 8 
+^REPLACE^ 03  45
+^END^

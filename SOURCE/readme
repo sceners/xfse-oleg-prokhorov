@@ -1,0 +1,21 @@
+Tools
+-----
+Assembler:
+NASM - Netwide Assembler
+http://www.web-sites.co.uk/nasm/index.html
+ftp://ftp.simtel.net/pub/simtelnet/msdos/asmutl/
+
+Linkers:
+ALINK - Linker
+http://alink.home.dhs.org
+which redirects to
+http://www.geocities.com/SiliconValley/Network/4311/
+
+WLINK - Linker
+Used for linking VXD part. Commercial product. Since it's not able to 
+make VXDs there's a small patch (xfse.aps) for the "LE" output file.
+
+PATCHER:
+APATCH - tiny patch maker
+ You can find it at:  http://apack.cjb.net/
+                 or:  http://members.xoom.com/jibz/apack/news.htm
